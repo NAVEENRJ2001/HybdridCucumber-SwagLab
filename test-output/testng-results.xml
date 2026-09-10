@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="33" passed="32" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-21T12:17:51 IST" name="Default suite" finished-at="2026-08-21T12:18:58 IST" duration-ms="66310">
+  <suite started-at="2026-09-09T11:02:16 IST" name="Cross Browser Suite" finished-at="2026-09-09T11:05:29 IST" duration-ms="193036">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-08-21T12:17:51 IST" name="Default test" finished-at="2026-08-21T12:18:58 IST" duration-ms="66310">
+    <test started-at="2026-09-09T11:02:16 IST" name="Chrome Test" finished-at="2026-09-09T11:05:09 IST" duration-ms="173944">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:17:51 IST" name="setUpClass" finished-at="2026-08-21T12:17:53 IST" duration-ms="1093" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:16 IST" name="setUpClass" finished-at="2026-09-09T11:02:17 IST" duration-ms="1433" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@79e33802]]>
+                <![CDATA[org.testng.TestRunner@5a9f4771]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:17:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:17:58 IST" duration-ms="5912" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:59 IST" duration-ms="161683" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:17:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:03 IST" duration-ms="4669" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:49 IST" duration-ms="151558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,39 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:08 IST" duration-ms="4761" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To Checkout the product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Checkout the Product"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:11 IST" duration-ms="3334" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Filter -> Name (Z to A)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Sort the Product"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:14 IST" duration-ms="2858" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="152851" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,55 +71,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:18 IST" duration-ms="3603" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:59 IST" duration-ms="161452" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Filter -> Price (High to Low)"]]>
+                <![CDATA["To Checkout the product"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["To Sort the Product"]]>
+                <![CDATA["To Checkout the Product"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:21 IST" duration-ms="3554" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Filter -> Name (A to Z)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To Sort the Product"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:25 IST" duration-ms="3487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page Feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:27 IST" duration-ms="2482" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="153250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:31 IST" duration-ms="3530" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:59 IST" duration-ms="161476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +119,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-21T12:18:34 IST" duration-ms="2893" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:51 IST" duration-ms="153379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:51 IST" duration-ms="153375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (A to Z)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="153294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (High to Low)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:48 IST" duration-ms="151091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (Z to A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:04:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:05:06 IST" duration-ms="17533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,7 +199,237 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@77d67cf3]" started-at="2026-08-21T12:18:34 IST" name="tearDownClass" finished-at="2026-08-21T12:18:58 IST" duration-ms="23965" status="FAIL">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@16c069df]" started-at="2026-09-09T11:05:06 IST" name="tearDownClass" finished-at="2026-09-09T11:05:09 IST" duration-ms="3680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2026-09-09T11:02:16 IST" name="Firefox Test" finished-at="2026-09-09T11:05:27 IST" duration-ms="191650">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:16 IST" name="setUpClass" finished-at="2026-09-09T11:02:17 IST" duration-ms="1457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@282cb7c7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:22 IST" duration-ms="125175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To remove the one products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:42 IST" duration-ms="145313" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Checkout the product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Checkout the Product"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Move target (1204, 652) is out of bounds of viewport dimensions (1366, 643)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c5092c12-8e06-49ef-83e7-258c12179c77, actions {actions=[org.openqa.selenium.interactions.Sequence@2c688165]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32624, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c5092c12-8e06-49ef-83e7-258c12179c77]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (1204, 652) is out of bounds of viewport dimensions (1366, 643)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c5092c12-8e06-49ef-83e7-258c12179c77, actions {actions=[org.openqa.selenium.interactions.Sequence@2c688165]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 32624, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c5092c12-8e06-49ef-83e7-258c12179c77
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:721)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:612)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:577)
+at com.qa.util.ElementUtil.moveToTheElement(ElementUtil.java:136)
+at com.Pages.CheckoutPage.locateFb(CheckoutPage.java:77)
+at stepdefinitions.CheckoutSteps.user_clicks_the_finish_button(CheckoutSteps.java:66)
+at ✽.user clicks the finish button(file:///C:/Users/Admin/eclipse-workspace/hybridCucumber/src/test/resource/com/features/Checkout.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="152466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Add two products to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:41 IST" duration-ms="144328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (Z to A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:44 IST" duration-ms="146509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (Low to High)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:41 IST" duration-ms="144100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (High to Low)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="152857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (A to Z)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:23 IST" duration-ms="125645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:44 IST" duration-ms="146912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:44 IST" duration-ms="146706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:04:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:59 IST" duration-ms="36262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@1c852c0f]" started-at="2026-09-09T11:04:59 IST" name="tearDownClass" finished-at="2026-09-09T11:05:27 IST" duration-ms="28276" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[java.net.ConnectException: Connection timed out: connect]]>
@@ -212,10 +444,8 @@ at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(Cucumbe
 at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:104)
 at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:148)
 at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
@@ -223,68 +453,62 @@ at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 Caused by: java.net.ConnectException: Connection timed out: connect
-at java.base/jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2019)
-at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2014)
-at java.base/java.security.AccessController.doPrivileged(AccessController.java:551)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2013)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1575)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1559)
-at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
-at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2085)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2080)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2079)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1649)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
 at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:127)
 at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:88)
 at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:66)
-at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:341)
-at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:161)
-at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:255)
+at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:435)
+at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222)
+at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
 at io.cucumber.messages.MessageToNdjsonWriter.close(MessageToNdjsonWriter.java:40)
 at io.cucumber.core.plugin.MessageFormatter.write(MessageFormatter.java:35)
-... 34 more
+... 26 more
 Caused by: java.net.ConnectException: Connection timed out: connect
-at java.base/java.net.PlainSocketImpl.connect0(Native Method)
-at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
-at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
-at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
-at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.base/java.net.Socket.connect(Socket.java:608)
-at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:302)
-at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
-at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
-at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
-at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
-at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
-at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
-at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1249)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1098)
-at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1631)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1559)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3195)
-at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:279)
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:601)
+at java.base/sun.nio.ch.Net.connect(Net.java:590)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:751)
+at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3288)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:252)
 at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:126)
-... 41 more
+... 34 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalStateException -->
@@ -292,6 +516,283 @@ at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2026-09-09T11:02:16 IST" name="Edge Test" finished-at="2026-09-09T11:05:29 IST" duration-ms="193036">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:16 IST" name="setUpClass" finished-at="2026-09-09T11:02:17 IST" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d898981]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:48 IST" duration-ms="151129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Checkout the product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Checkout the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:49 IST" duration-ms="151906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To remove the one products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="152479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (Z to A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:49 IST" duration-ms="151893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (Low to High)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:50 IST" duration-ms="152475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (High to Low)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:48 IST" duration-ms="151179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (A to Z)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Sort the Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:46 IST" duration-ms="149285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:49 IST" duration-ms="151577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:49 IST" duration-ms="151845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Add two products to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:02:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:04:48 IST" duration-ms="150523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:04:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T11:05:06 IST" duration-ms="19441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@5d99c6b5]" started-at="2026-09-09T11:05:06 IST" name="tearDownClass" finished-at="2026-09-09T11:05:29 IST" duration-ms="22746" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[java.net.ConnectException: Connection timed out: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: java.net.ConnectException: Connection timed out: connect
+at io.cucumber.core.plugin.MessageFormatter.write(MessageFormatter.java:37)
+at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:124)
+at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:104)
+at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:148)
+at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection timed out: connect
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2085)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2080)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2079)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1649)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307)
+at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:127)
+at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:88)
+at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:66)
+at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:435)
+at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222)
+at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
+at io.cucumber.messages.MessageToNdjsonWriter.close(MessageToNdjsonWriter.java:40)
+at io.cucumber.core.plugin.MessageFormatter.write(MessageFormatter.java:35)
+... 26 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:601)
+at java.base/sun.nio.ch.Net.connect(Net.java:590)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:751)
+at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3288)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:252)
+at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:126)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Cross Browser Suite -->
 </testng-results>

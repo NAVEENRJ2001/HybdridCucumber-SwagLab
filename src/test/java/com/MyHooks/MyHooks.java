@@ -6,6 +6,7 @@ import java.util.Properties;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
@@ -31,8 +32,11 @@ public class MyHooks {
 	public void launchBrowser() {
 		
 		driverFactory = new DriverFactory();
-		driverFactory.init_driver(ConfigReader.getProperty("browser"));
-		DriverFactory.getDriver().get(ConfigReader.getProperty("qaurl"));
+		String browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
+		System.out.println("Running Browser:" + browser);
+		driverFactory.init_driver(browser);
+		driverFactory.getDriver().get(configReader.getProperty("qaurl"));
+		
 
 	}
 
