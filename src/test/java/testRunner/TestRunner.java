@@ -13,7 +13,8 @@ dryRun = false)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	
-    
+    //parallel execution
+	
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][]scenarios(){
