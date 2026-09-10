@@ -14,7 +14,7 @@ import io.cucumber.java.en.When;
 public class AddToCartSteps {
 
 	private HomePage homePage = new HomePage(DriverFactory.getDriver());
-
+//login
 	@Given("User logged into the homepage")
 	public void user_logged_into_the_homepage() {
 		LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
