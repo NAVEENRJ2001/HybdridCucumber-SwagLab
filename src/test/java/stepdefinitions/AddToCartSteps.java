@@ -55,7 +55,7 @@ public class AddToCartSteps {
 	public void user_removed_product_sucessfully() {
 		homePage.locateTheElement();
 		Assert.assertTrue(homePage.gettextCartIcon().contains("1"));
-		System.out.println("Removed Sucessfully");
+		//System.out.println("Removed Sucessfully");
 	}
 
 }
