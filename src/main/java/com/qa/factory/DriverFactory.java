@@ -13,14 +13,13 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import com.qa.util.Constants;
 
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
 	public WebDriver driver;
 	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
-
+//drivers
 	public void init_driver(String browser) {
 		System.out.println("browser value is:" + browser);
 		if (browser.equals("chrome")) {
